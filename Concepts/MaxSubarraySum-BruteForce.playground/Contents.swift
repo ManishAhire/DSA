@@ -21,6 +21,6 @@ func maxSubArraySum(_ numbers: [Int]) -> Int {
     return maxSum
 }
 
-let numbers = [1, 2, 3, 4, 5]
+let numbers = [1, -2, 6, -1, 3]
 let maxSum = maxSubArraySum(numbers)
 print("Max Sum: \(maxSum)")
